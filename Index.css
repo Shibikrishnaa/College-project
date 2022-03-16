@@ -1,0 +1,54 @@
+a
+{
+    font-size:40px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    margin:50px;
+    padding-left:20px;
+}
+a:hover 
+{
+    background-color:red;
+    opacity:0.8;
+    transition:.9s;
+}
+p
+{
+    font-weight:bold;
+    font-size:35px;
+    padding-left:80px;
+}
+img
+{
+    height:400px;
+    width:400px;
+}
+.container
+{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+}
+#first
+{
+    height:800px;
+    width:1250px;
+    opacity:0.9;
+    transition:.9s;
+}
+marquee
+{
+    text-align:center;
+    font-size:10px;
+    background-color:rebeccapurple;
+}
+html
+{
+    background-color:blueviolet;
+}
+hr
+{
+    list-style:bold;
+}
