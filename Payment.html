@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        label
+        {
+            font-size:40px;
+            font-style:Bold;
+            font:black;
+        }
+        :placeholder-shown
+        {
+            text-align:center;
+            font-style:Bold;
+            font:black;
+        }
+        p{
+            text-align:center;
+            font:black;
+        }
+        table{
+            table-layout:center;
+            padding-left:250px;
+            padding-right:250px;
+        }
+        html
+        {
+            background-color:green;
+        }
+        button
+        {
+            font-size:30px;
+            text-align:center;
+        }
+        marquee
+        {
+            font-size:50px;
+            background-color:yellow;
+        }
+        img
+        {
+            height:150px;
+            width:150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.html">
+    <marquee>Your payments are on the way!</marquee>
+    <table border="2px">
+        <tr>
+            <td><a href=""><img src="images/visa.jpg"></a>
+                <a href=""><img src="images/onlinepayment.jpg" style="width:220px"></a>
+            </td>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td><a href=""><img src="images/payer.jpg"></a>
+                <a href=""><img src="images/Freeze.jpg" style="width:200px"></a>
+            </td>
+        </tr>
+        <tr>
+    <td><strong>
+        <p style="font-size:40px">BILLING ADDRESS</p></strong></td>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td><strong><p style="font-size:40px">Payment</p></strong></td></tr>
+    <tr>
+    <td>
+    <label>FULLNAME:</label><br><br>
+    <input type="text" type="text" placeholder="FULLNAME" style=height:30px required></td>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><label>Name On Card:</label><br><br>
+    <input type="text" type="text" placeholder="mr.xxxx" style=height:30px required></td></tr><br><br>
+    <tr>
+        <td>
+    <label>Email:</label><br><br>
+    <input type="text" type="text" placeholder="fake@gmail.com" style=height:30px required></td<br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><label>Credit Card Number:</label><br><br>
+    <input type="text" type="text" placeholder="Credit Card Number" style=height:30px required></td></tr><br><br>
+    <tr>
+        <td>
+    <label>Address</label><br><br>
+    <input type="textarea" type="textarea" placeholder="Address" style=height:30px required></td><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><label>ExpMonth:</label><br><br>
+    <input type="text" type="text" placeholder="ExpMonth:" style=height:30px required></td></tr><br><br>
+    <tr>
+        <td>
+    <label>City</label><br>
+    <input type="text" type="text" placeholder="City" style=height:30px></td><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td><label>ExpYear:</label><br><br>
+        <input type="text" type="text" placeholder="ExpYear:" style=height:30px></td></tr><br><br>
+    <tr><td><label>State:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label>Zip code:</label><br>
+    <input type="text" type="text" placeholder="State" style=height:30px required>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" type="text" placeholder="Zipcode" style=height:30px required></td>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><label>Cvv:</label><br><br>
+    <input type="text" type="text" placeholder="Cvv" style=height:30px required></td></tr><br><br>
+    </td>
+    <center><td><button>Proceedtocheckout</button></td></center>
+    </table>
+    </form>
+</body>
+</html>
